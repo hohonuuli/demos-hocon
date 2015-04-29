@@ -1,6 +1,6 @@
 # demos-hocon
 
-The project for trying out [Typesafe's Config library]
+The project for trying out [Typesafe's Config library](https://github.com/typesafehub/config)
 
 Other references:
 - [https://marcinkubala.wordpress.com/2013/10/09/typesafe-config-hocon/](https://marcinkubala.wordpress.com/2013/10/09/typesafe-config-hocon/)
