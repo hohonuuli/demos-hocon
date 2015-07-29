@@ -220,6 +220,8 @@ addCommandAlias("cleanall", ";clean;clean-files")
 
 initialCommands in console :=
   """
-    |import java.util.Date
+    |import com.typesafe.config.{Config, ConfigFactory}
+    |import scala.collection.JavaConverters._
+    |def configDump(config: Config): Unit = config.entrySet.asScala.toList.sortBy(_.getKey).foreach(println)
   """.stripMargin
 
